@@ -1,0 +1,23 @@
+{
+  "name": "webpacktesting",
+  "version": "1.0.0",
+  "description": "js import wiring by webpack test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node node_modules/.bin/webpack-dev-server --content-base app"
+  },
+  "author": "Mr. Octa Green",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^4.0.0",
+    "css-loader": "^0.28.9",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9",
+    "postcss-loader": "^2.1.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.20.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
+  }
+}
